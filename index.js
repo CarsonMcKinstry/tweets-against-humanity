@@ -89,7 +89,7 @@ const answerText = tweet => {
 
     if (blackCardCheck && whiteCardCheck) {
       getAnswer(responseId, originalAuthor);
-    } else if (whiteCardCheck && isQuestion) {
+    } else if (isQuestion) {
       answerTweet(responseId, originalAuthor);
     } else {
       emptyReply("What do you want from me!?", responseId, originalAuthor);
