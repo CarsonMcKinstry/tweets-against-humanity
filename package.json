@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.0",
+    "lodash": "^4.17.4",
     "twit": "^2.2.9"
   }
 }
