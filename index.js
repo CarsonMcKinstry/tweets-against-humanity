@@ -56,7 +56,7 @@ const answerTweet = (responseId, originalAuthor) => {
     if (originalAuthor) {
       answer = "@" + originalAuthor + " " + answer;
     }
-    answer.length <= 140
+    answer.length <= process.env.TWEET_LENGTH
       ? createPost(answer, responseId)
       : answerTweet(responseId, originalAuthor);
   });
