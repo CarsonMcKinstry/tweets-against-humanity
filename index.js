@@ -63,7 +63,7 @@ const answerTweet = (responseId, originalAuthor) => {
 };
 
 const emptyReply = (answer, responseId, originalAuthor) => {
-  const tweet = "@" + originalAuthor + " " + answer + " #CAH #TAH";
+  const tweet = "@" + originalAuthor + " " + answer + " #CardsAgainstHumanity #TweetsAgainstHumanity";
   createPost(tweet, responseId);
 };
 
